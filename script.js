@@ -3,28 +3,28 @@ const products = [
       id: 1,
       name: "Heating Pads",
       price: 20,
-      image: "heatingpad.png",
+      image: "img/heatingpad.png",
       quantity:1
     },
     {
       id: 2,
       name: "Sanitary Pads",
       price: 10,
-      image: "pads.png",
+      image: "img/pads.png",
       quantity:1
     },
     {
       id: 3,
       name: "Tampons",
       price: 10,
-      image: "tampon.png",
+      image: "img/tampon.png",
       quantity:1
     },
     {
       id: 4,
       name: "Period Underwear",
       price: 20,
-      image: "underwear.png",
+      image: "img/underwear.png",
       quantity:1,
     }
   ];
