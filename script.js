@@ -3,7 +3,7 @@ const products = [
       id: 1,
       name: "Heating Pads",
       price: 20,
-      image: 'img/heatingpad.png',
+      image: "img/heatingpad.png",
       quantity:1
     },
     {
