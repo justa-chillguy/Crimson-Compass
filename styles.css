@@ -1,0 +1,119 @@
+@font-face 
+{
+    font-family: 'Sandler';
+    src: url('Sandler.otf') format('truetype');
+}
+
+h1
+{
+    font-family: 'Sandler', Georgia; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.column1 
+{
+    width: 20%;
+}
+
+.column2 
+{
+    width: 60%;
+    display: inline-flex;
+}
+
+.column3 
+{
+    width: 20%;
+}
+
+body
+{
+    background-color: #EFC4CB;
+}
+  
+.logo 
+{
+    width: 350px;
+    height: auto;
+}
+  
+.logo-container 
+{
+    display: flex;
+    align-items: center;
+}
+
+.site-title 
+{
+    font-size: 100px;
+    color: #384F78; 
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navigation li {
+    margin: 0 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C2B5E;
+  }
+  
+  .navigation a:hover {
+    color: #DA627D; 
+  }
+
+  @media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        max-width: 80%; /* Make the logo larger on smaller screens */
+    }
+
+    .site-title {
+        font-size: 1.2em; /* Smaller font size for mobile */
+        text-align: center; /* Center text */
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    .site-title {
+        font-size: 1.4em; /* Adjust font size for tablets */
+    }
+
+    .logo {
+        max-width: 90%; /* Slightly larger logo on tablet */
+    }
+}
+
+.about
+{
+    padding: 50px;
+    font-size: 1.5rem;
+}
+
+
