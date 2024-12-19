@@ -26,7 +26,23 @@ const products = [
       price: 20,
       image: "img/underwear.png",
       quantity:1,
+    },
+    {
+      id: 5,
+      name: "Disposable Wipes",
+      price: 10,
+      image: "img/wipes.png",
+      quantity:1
+    },
+    {
+      id: 6,
+      name: "Menstral Cups",
+      price: 20,
+      image: "img/cup.png",
+      quantity:1,
     }
+
+
   ];
   
   
